@@ -1,0 +1,28 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Inter, sans-sarif;
+  max-width: 800px;
+  background: #FAFAF8;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  height: 100px;
+  background-color: #FFFFFF;
+}
+
+.header > img {
+  width: 60px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-weight: 400;
+}
