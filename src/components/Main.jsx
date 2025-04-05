@@ -23,7 +23,8 @@ export default function Main() {
                 <button type="submit">+ add ingredient</button>
             </form>
             {ingredients.length > 0 && <section>
-                <h2>Ingredients on hand:</h2>
+                <h2>Ingredients on hand():</h2>
+                <small>(Enter minimum of 4 ingredients to generate recipe)</small>
                 <IngredientsList ingredients={ingredients} getRecipe={getRecipe} />
             </section>}
             {recipe && <ClaudeRecipe handleClick={getRecipeFromMistral} recipe={recipe} />}
