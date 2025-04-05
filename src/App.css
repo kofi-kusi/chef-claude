@@ -26,3 +26,72 @@ body {
 h1 {
   font-weight: 400;
 }
+
+main {
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 35px;
+}
+
+form > input {
+  width: 60%;
+  padding: 10px 5px;
+  border: 2px solid #D1D5DB;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+form > button {
+  background-color: #141413;
+  color: #FAFAF8;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: none;
+  width: 40%;
+  font-size: 0.875rem;
+}
+
+.ingredients-list > li {
+    color: #475467;
+    line-height: 28px;
+}
+
+.get-recipe-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: #F0EFEB;
+    padding: 10px 28px;
+}
+
+
+.get-recipe-container h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.get-recipe-container p {
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.get-recipe-container button {
+  border: none;
+  border-radius: 6px;
+  background: #D17557;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  color: #FAFAF8;
+  padding: 9px 17px;
+  font-family: Inter, sans-serif;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
