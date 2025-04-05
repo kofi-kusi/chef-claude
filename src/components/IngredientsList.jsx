@@ -13,6 +13,7 @@ export default function IngredientsList({ ingredients, getRecipe }) {
           <div>
             <h3>Ready for a recipe?</h3>
             <p>Generate a recipe from your list of ingredients.</p>
+            <p>Click on the button and wait for few seconds</p>
           </div>
           <button onClick={getRecipe}>Get a recipe</button>
         </div>
