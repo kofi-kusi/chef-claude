@@ -19,7 +19,7 @@ export default function Main() {
 
     useEffect(() => {
         if (recipe !== "" && recipeSection.current !== null) {
-            recipeSection.current.scrollIngoView({ bahavior: "smooth"})
+            recipeSection.current.scrollIntoView({ bahavior: "smooth"})
         }
     }, [recipe])
 
